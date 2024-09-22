@@ -1,0 +1,21 @@
+DP has 2 Main Approaches
+- Memoization (Top-Down Approach)
+- Tabulation (Bottom-Up Approach)
+
+Memoization - is a top-down approach where results of expensive function calls are stored and reused.
+Tabulation - is a bottom-up approach that builds up a table of results iteratively without recursion.
+
+DP converts main problem into smaller sub problems & stores the value of the sub problem.
+In DP, the sub problems are related to each other in some way. (Eg: Fibonnaci) other wise that problem is Divide & Conquer.
+- If sub problems are overlapping on each other then choose DP.
+
+0/1 KnapSack Problem. (Weightage given in scenarios, like robbing house, max profit)
+- Either we pick the ans or not, hence 0/1.
+- 2D Matrix Sort (Refer Pepcoding Video)
+
+Problems-
+- 0 – 1 Knapsack Problem
+- Subset Sum Problem
+- Maximize The Cut Segments (can be framed similarly to 0/1 Knapsack)
+- Partition Equal Subset Sum
+

@@ -181,7 +181,7 @@ root.right.right = new TreeNode(9);
 // factorOfN.KthFactor(12,4);
 
 // CoinChanges coinChanges = new CoinChanges();
-// coinChanges.CoinChange(new int[]{2,3,6,7}, 7);
+// coinChanges.CoinChange(new int[]{1,5,7}, 18);
 
 // ProductExceptSelf productExceptSelf = new ();
 // // productExceptSelf.ProductExceptSelf2(new int[] {1,2,3,4});
@@ -750,7 +750,7 @@ int rees = 0;
 
 
 
-Contest416 contest416 = new Contest416();
-// var res = contest416.ReportSpam(new string[]{"hello","world","leetcode"}, new string[] {"world","hello"});
-var res = contest416.MinNumberOfSeconds(10,new int[] {3,2,2,4});
-Console.Write(res);
+// Contest416 contest416 = new Contest416();
+// // var res = contest416.ReportSpam(new string[]{"hello","world","leetcode"}, new string[] {"world","hello"});
+// var res = contest416.MinNumberOfSeconds(10,new int[] {3,2,2,4});
+// Console.Write(res);

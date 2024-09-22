@@ -82,4 +82,53 @@ public class Contest416
 
         return totalReduced >= mountainHeight; // Final check
     }
+
+    public long ValidSubstringCount(string word1, string word2) {
+        int m = word1.Length;
+        int n = word2.Length;
+
+        if (n > m) return 0; // If word2 is longer than word1, no valid substrings
+
+        // Frequency arrays for characters (assuming lowercase 'a' to 'z')
+        int[] freqWord2 = new int[26];
+        int[] freqWindow = new int[26];
+
+        // Count frequency of characters in word2
+         foreach (char c in word2)
+        {
+            freqWord2[c - 'a']++;
+        }
+
+        // Initialize the valid count
+        int validCount = 0;
+
+        // Slide through word1 with different lengths starting from n
+        for (int start = 0; start <= m - n; start++)
+        {
+            // Reset the window frequency array
+            Array.Clear(freqWindow, 0, 26);
+            // Fill the window with characters from the substring
+            for (int end = start; end < m; end++)
+            {
+                freqWindow[word1[end] - 'a']++;
+
+                // Check if the current window can be rearranged to have word2 as a prefix
+                if (end - start + 1 >= n && IsValid(freqWindow, freqWord2))
+                {
+                    validCount++;
+                }
+            }
+        }
+
+        return validCount;
+    }
+
+    private static bool IsValid(int[] freqWindow, int[] freqWord2)
+    {
+        for (int i = 0; i < 26; i++)
+        {
+            if (freqWindow[i] < freqWord2[i]) return false;
+        }
+        return true;
+    }
 }
