@@ -748,7 +748,11 @@ Solution407 solution407 = new Solution407();
 
 int rees = 0;
 
+// KnapSackProblem knapSackProblem = new KnapSackProblem();
+// var res = knapSackProblem.knapSack(4, new int [] {4,5,1}, new int[] {1,2,3});
 
+SubsetSumProblem subsetSumProblem = new SubsetSumProblem();
+subsetSumProblem.isSubsetSum(6,new int[]{3, 34, 4, 12, 5, 2},9);
 
 // Contest416 contest416 = new Contest416();
 // // var res = contest416.ReportSpam(new string[]{"hello","world","leetcode"}, new string[] {"world","hello"});
