@@ -252,8 +252,8 @@ root.right.right = new TreeNode(9);
 // var booles = wordbreak.WordBreak('cars', new List<string> {'car', 'ca', 'rs'});
 // var booles1 = wordbreak.WordBreak('catsandog', new List<string> {'cats','dog','sand','and','cat'});
 
-// PartitionEqualSubsetSum partitionEqualSubsetSum = new PartitionEqualSubsetSum();
-// partitionEqualSubsetSum.CanPartition(new int [] {1,5,11,5});
+PartitionEqualSubsetSum partitionEqualSubsetSum = new PartitionEqualSubsetSum();
+partitionEqualSubsetSum.CanPartition(new int [] {1,5,11,5});
 
 // StringToInteger stringToInteger = new StringToInteger();
 // var ress = stringToInteger.Atoi(' -042');
@@ -751,8 +751,8 @@ int rees = 0;
 // KnapSackProblem knapSackProblem = new KnapSackProblem();
 // var res = knapSackProblem.knapSack(4, new int [] {4,5,1}, new int[] {1,2,3});
 
-SubsetSumProblem subsetSumProblem = new SubsetSumProblem();
-subsetSumProblem.isSubsetSum(6,new int[]{3, 34, 4, 12, 5, 2},9);
+// SubsetSumProblem subsetSumProblem = new SubsetSumProblem();
+// subsetSumProblem.isSubsetSum(6,new int[]{3, 34, 4, 12, 5, 2},9);
 
 // Contest416 contest416 = new Contest416();
 // // var res = contest416.ReportSpam(new string[]{"hello","world","leetcode"}, new string[] {"world","hello"});
