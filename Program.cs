@@ -746,8 +746,6 @@ Solution407 solution407 = new Solution407();
 
 
 
-int rees = 0;
-
 // KnapSackProblem knapSackProblem = new KnapSackProblem();
 // var res = knapSackProblem.knapSack(4, new int [] {4,5,1}, new int[] {1,2,3});
 
@@ -759,5 +757,14 @@ int rees = 0;
 // var res = contest416.MinNumberOfSeconds(10,new int[] {3,2,2,4});
 // Console.Write(res);
 
-MaxCutSegments maxCutSegments = new MaxCutSegments();
-maxCutSegments.maximizeTheCuts(4,2,1,1);
+// MaxCutSegments maxCutSegments = new MaxCutSegments();
+// maxCutSegments.maximizeTheCuts(4,2,1,1);
+
+MinCostToCutStick minCostToCutStick = new MinCostToCutStick();
+minCostToCutStick.MinCost(9, new int[] {5,6,1,4,2});
+
+// Contest417 contest417 = new Contest417();
+// // var res = contest417.KthCharacter(5);
+// var res = contest417.CountOfSubstrings("ieaouqqieaouqq", 1);
+
+int rees = 0;
