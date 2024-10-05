@@ -760,11 +760,14 @@ Solution407 solution407 = new Solution407();
 // MaxCutSegments maxCutSegments = new MaxCutSegments();
 // maxCutSegments.maximizeTheCuts(4,2,1,1);
 
-MinCostToCutStick minCostToCutStick = new MinCostToCutStick();
-minCostToCutStick.MinCost(9, new int[] {5,6,1,4,2});
+// MinCostToCutStick minCostToCutStick = new MinCostToCutStick();
+// minCostToCutStick.MinCost(9, new int[] {5,6,1,4,2});
 
 // Contest417 contest417 = new Contest417();
 // // var res = contest417.KthCharacter(5);
 // var res = contest417.CountOfSubstrings("ieaouqqieaouqq", 1);
+
+PascalsTriangle pascalsTriangle = new PascalsTriangle();
+pascalsTriangle.Generate(5);
 
 int rees = 0;
