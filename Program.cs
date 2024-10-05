@@ -328,8 +328,9 @@ root.right.right = new TreeNode(9);
 // GasStation gasStation = new GasStation();
 // gasStation.CanCompleteCircuit(new int[] {1,2,3,4,5}, new int [] {3,4,5,1,2});
 
-// NextPermutations nextPermutations = new NextPermutations();
-// nextPermutations.NextPermutation(new int[] {4,3,2,5,4,3,1});
+NextPermutations nextPermutations = new NextPermutations();
+nextPermutations.NextPermutation(new int[] {4,3,2,5,4,3,1});
+nextPermutations.NextPermutation(new int[] {4,3,2,1});
 
 // ValidSudoku validSudoku = new ValidSudoku();
 // validSudoku.IsValidSudoku(new char[][]{['5','3','.','.','7','.','.','.','.']
@@ -767,7 +768,7 @@ Solution407 solution407 = new Solution407();
 // // var res = contest417.KthCharacter(5);
 // var res = contest417.CountOfSubstrings("ieaouqqieaouqq", 1);
 
-PascalsTriangle pascalsTriangle = new PascalsTriangle();
-pascalsTriangle.Generate(5);
+// PascalsTriangle pascalsTriangle = new PascalsTriangle();
+// pascalsTriangle.Generate(5);
 
 int rees = 0;
